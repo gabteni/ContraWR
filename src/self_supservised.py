@@ -12,7 +12,7 @@ from tqdm import tqdm
 from collections import Counter
 import pickle
 
-os.environ["CUDA_VISIBLE_DEVICES"] = "1"
+#os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 
 # evaluation design
 def task(X_train, X_test, y_train, y_test, n_classes):
