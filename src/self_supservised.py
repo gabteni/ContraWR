@@ -167,7 +167,7 @@ if __name__ == '__main__':
 
     if args.dataset == 'SLEEP':
         # dataset
-        pretext_dir = '/kaggle/working/SLEEP_data/cassette_processed/pretext'
+        pretext_dir = '/kaggle/working/SLEEP_data/cassette_processed/pretext/'
         train_dir = '/kaggle/working/SLEEP_data/cassette_processed/train/'
         test_dir = '/kaggle/working/SLEEP_data/cassette_processed/test/'
 
