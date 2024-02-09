@@ -69,7 +69,7 @@ if __name__ == '__main__':
         os.makedirs('./SLEEP_data/cassette_processed/train')
         os.makedirs('./SLEEP_data/cassette_processed/test')
 
-    root_folder = './SLEEP_data/sleep-edf-database-expanded-1.0.0/sleep-cassette'
+    root_folder = '/kaggle/input/sleepedf/sleepEDF/sleep-cassette'
 
     N, epoch_sec = args.multiprocess, args.windowsize
     p_list = []
