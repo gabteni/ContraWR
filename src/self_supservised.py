@@ -41,7 +41,7 @@ def Pretext(q_encoder, k_encoder, optimizer, Epoch, criterion, pretext_loader, t
     all_loss, acc_score = [], []
     for epoch in range(Epoch):
         # save model
-        torch.save(q_encoder.state_dict(), open(os.path.join('saved', args.model, \
+        torch.save(q_encoder.state_dict(), open(os.path.join('/kaggle/working/saved', args.model, \
              'Epoch_{}-T-{}-delta-{}.model'.format(epoch, args.T, args.delta)), 'wb'))
         print ()
         for index, (aug1, aug2) in enumerate(tqdm(pretext_loader)):
